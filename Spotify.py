@@ -38,7 +38,7 @@ st.session_state['artists'] = artists
 # FILTROS
 ## artista
 st.subheader('Filtros')
-sel_artist = st.sidebar.selectbox('Artista', artists)
+sel_artist = st.selectbox('Artista', artists)
 # aplicação de filtros
 df_spotify_filtered = df_spotify_itrack[(df_spotify_itrack['Artist'] == sel_artist)]
 
