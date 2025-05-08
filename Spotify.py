@@ -5,8 +5,7 @@ from pathlib import Path
 import time
 
 # localização do dado
-dirPadrao = Path(__file__).parent
-dirData = dirPadrao / 'data'
+dirData = Path('data')
 csvSpotify = dirData / '01 Spotify.csv'
 
 
